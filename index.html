@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>1-2 Welcome Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <section class="banner" id="sec">.
+    <header>
+      <a href="#" class="logo">Logo</a>
+      <div id="toggle" onclick="toggle()"></div>
+    </header>
+    <div class="content">
+      <h2>Welcome Everyone,<br>I'm <span>Andrew Vogt</span></h2>
+      <h3>Biography</h3>
+      <p class="tab">     I'm a Front-End Software Developer with a background in Networking. 
+        I've learned/acheieved: learning the folllowing languages with making over 30+ websites 
+        HTML/CSS/JS, The Comptia Network+ the knowledge to Acuire the certifcation came from from IT 340 Network Management course/TEST OUT/Jason Dion/Mike Meyers and Prof. Messer,
+      a fundamental project management background thorugh the use of learning how to make Gantt charts in IT 328, 
+    rudimentary knowledge of Linux Server through the course IT 255 at SNHU 
+    </p>
+<br>
+<p class="tab">
+               I am born and raised in Northern Virginia right outside the nations capital Washington D.C!
+         I am a photographer, which the beneifts of requiring fundamental UI knowledge has also helped in that endeavor.
+</p>
+<br>
+<p class="tab">
+                I almost about to graduate with my B.S in Information Technology, 
+         however back in  2018 I graduated with my Associates of Science In Information Technology from NVCC.
+         It's really an awesome feeling it's incredible from being  in-and-out-of school, and in-and-out-of rehab I never though tthat I ould have ever thought that I would get to this point. 
+         Retarded thugs like me aren't supposed to be in this position, but I have proved so many people wrong including myself. Mor eimportantly I have proved the right people right the people who have always believed in me, and for that I feel awesome, this maybe a tad over-sharing but the article<a href="https://www.forbes.com/sites/deborahljacobs/2014/06/03/what-to-do-when-you-need-a-bio-rather-than-a-resume/?sh=57b28fd04e43">what-to-do-when-need-a-bio-rather-than-a-resume</a>, so I just did what the article told me to do!
+  
+  </p>
+      <a href="#">Know More</a>
+    </div>
+    <ul class="sci">
+      <li><a href="#"><img src="facebook.png"></a></li>
+      <li><a href="#"><img src="twitter.png"></a></li>
+      <li><a href="#"><img src="linkedin.png"></a></li>
+    </ul>
+  </section>
+  <div id="navigation">
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  <script type="text/javascript">
+    function toggle(){
+      var sec = document.getElementById('sec');
+      var nav = document.getElementById('navigation');
+      sec.classList.toggle('active')
+      nav.classList.toggle('active')
+    }
+  </script>
+</body>
+</html>
